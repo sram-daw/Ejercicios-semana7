@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Billetes {
     public static void cuantosBilletes(int cantidad) {
         int cuantosQuinientos = 0, cuantosDoscientos = 0, cuantosCien = 0, cuantosCincuenta = 0, cuantosVeinte = 0, cuantosDiez = 0, cuantosCinco = 0;
