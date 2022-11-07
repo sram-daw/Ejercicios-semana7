@@ -25,7 +25,12 @@ public class Billetes {
         cuantosCinco = cantidad / 5;
         cantidad = cantidad - cuantosCinco * 5;
 
-//imprime la cantidad de cada billete solo si es mayor que 0
+        mostrarBilletes(cuantosQuinientos, cuantosDoscientos, cuantosCien, cuantosCincuenta, cuantosVeinte, cuantosDiez, cuantosCinco);
+
+    }
+
+    //imprime la cantidad de cada billete solo si es mayor que 0
+    public static void mostrarBilletes(int cuantosQuinientos, int cuantosDoscientos, int cuantosCien, int cuantosCincuenta, int cuantosVeinte, int cuantosDiez, int cuantosCinco) {
         System.out.println();
         if (cuantosQuinientos > 0) {
             System.out.println(cuantosQuinientos + " billetes de 500€");
@@ -49,7 +54,10 @@ public class Billetes {
             System.out.println(cuantosCinco + " billetes de 5€");
         }
 
+
     }
+
+
 }
 
 
