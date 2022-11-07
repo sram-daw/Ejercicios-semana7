@@ -5,6 +5,4 @@ public class Main {
         Menu instanciaMenu= new Menu();
         instanciaMenu.menuFuncion();
     }
-
-
 }

@@ -21,7 +21,6 @@ public class Menu {
 
                         if (comprobacion == 0) {
                             multiplo = true;
-
                             Billetes instanciaBilletes = new Billetes();
                             instanciaBilletes.cuantosBilletes(cantidad);
                         } else {
