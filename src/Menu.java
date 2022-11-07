@@ -6,10 +6,10 @@ public class Menu {
         boolean salir = false;
 
         while (!salir) {
-            int operacion = 0;
-            int cantidad = 0;
+            int operacion = 0; //selección en el menú qué se desea hacer
+            int cantidad = 0; //cantidad de dinero introducida por el usuario
             int comprobacion = 0; //comprueba si la cantidad es múltiplo de 5
-            boolean multiplo = false;
+            boolean multiplo = false; //mientras no sea verdadero, no para de pedir la cantidad. Debe ser declarada dentro del while para que en las siguientes vueltas del bucle se vuelva a establecer su valor como falso por defecto y se ejecute el case 1.
             System.out.println("Indique qué operación desea realizar:\n1- Retirar dinero\n2- Salir");
             operacion = input.nextInt();
             switch (operacion) {

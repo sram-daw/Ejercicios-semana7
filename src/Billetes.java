@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Billetes {
     public static void cuantosBilletes(int cantidad) {
         int cuantosQuinientos = 0, cuantosDoscientos = 0, cuantosCien = 0, cuantosCincuenta = 0, cuantosVeinte = 0, cuantosDiez = 0, cuantosCinco = 0;
-
+//Comprueba cuántos billetes de cada debe dar, reasignando el valor de la variable "cantidad" según va restando del total.
         cuantosQuinientos = cantidad / 500;
         cantidad = cantidad - cuantosQuinientos * 500;
 
@@ -25,6 +25,7 @@ public class Billetes {
         cuantosCinco = cantidad / 5;
         cantidad = cantidad - cuantosCinco * 5;
 
+//imprime la cantidad de cada billete solo si es mayor que 0
         System.out.println();
         if (cuantosQuinientos > 0) {
             System.out.println(cuantosQuinientos + " billetes de 500€");
