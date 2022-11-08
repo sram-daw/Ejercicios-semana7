@@ -17,6 +17,8 @@ classDiagram
        +main() void
     }
 ```
+
+# Diagrama de flujo
 ```mermaid
 graph TB
     inicio((Inicio))-->operacion
